@@ -27,7 +27,7 @@ That's it.
 Here is more or less what it looks like:
 
 
-     qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+-----
      #     #
      #     #    ##     ####   #    #    ##    #####     ##     #   #
      #     #   #  #   #    #  #   #    #  #   #    #   #  #     # #
@@ -43,5 +43,5 @@ Here is more or less what it looks like:
 		 Gaming Beyond Retropie
 		 Linux-Fu: Applications on the Web
 		 The Right Circuit Turns Doppler Module into a Sensor
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+-----
 
