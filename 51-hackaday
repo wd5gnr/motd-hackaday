@@ -1,0 +1,14 @@
+#!/bin/bash
+hr() {
+    local start=$'\e(0' end=$'\e(B' line='qqqqqqqqqqqqqqqq'
+        local cols=${COLUMNS:-$(tput cols)}
+	    while ((${#line} < cols)); do line+="$line"; done
+	        printf '%s%s%s\n' "$start" "${line:0:cols}" "$end"
+		}
+
+
+hr
+banner Hackaday
+curl "https://hackaday.com/feed/"  2>/dev/null | grep "<title>" |
+   sed -e "s/<title>\(.*\)<\/title>/ \1/g" | grep -v  '^[[:space:]]*Hackaday[[:space:]]*$'
+ hr
